@@ -408,6 +408,14 @@ span{
     align-items: baseline;
     padding: 5rem 5rem;
 }
+
+.enlacesP {
+    color: inherit;
+    text-decoration: none;
+}
+.enlacesP:visited {
+    color: inherit;
+}
 .proyecto-info h4 {
     font-size: 3rem;
     font-weight: 800;
