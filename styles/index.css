@@ -13,7 +13,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #00ffee;
+    --main-color: #2563EB;
 }
 
 html {
@@ -107,7 +107,7 @@ span{
     font-size: 3.5rem;
 }
 .home-content h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
@@ -228,23 +228,23 @@ span{
 @keyframes words {
     0%,
     20% {
-        content: "Desarrollador Frontend";
+        content: "Frontend Developer";
     }
     21%,
     40% {
-        content: "Desarrollador Backend";
+        content: "UI Developer";
     }
     41%,
     60% {
-        content: "Desarrollador Web";
+        content: "Web Developer";
     }
     61%,
     80% {
-        content: "Desarrollador de aplicaciones moviles";
+        content: "JavaScript Developer";
     }
     81%,
     100% {
-        content: "Desarrollador de software";
+        content: "Software Developer";
     }
 }
 @keyframes typing {
@@ -274,7 +274,7 @@ span{
 }
 
 .heading {
-    font-size: 8rem;
+    font-size: 6rem;
     text-align: center;
     margin: 5rem 0;
 }
@@ -344,7 +344,7 @@ span{
     transition: 0.3s ease-in-out;
 }
 .timeline-content:hover {
-    transform: scale(1.05);
+    transform: translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
 }
 .timeline-content h3 {
@@ -450,7 +450,7 @@ span{
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 3rem;
 }
 .hobbie-item {
